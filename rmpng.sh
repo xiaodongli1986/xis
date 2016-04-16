@@ -1,1 +1,1 @@
-rm *.png
+git rm *.png
