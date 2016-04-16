@@ -4,7 +4,7 @@
 execfile('/home/xiaodongli/software/pythonlib/Tpcftools.py')
 
 is_sig_pi = False
-make_plot = True
+make_plot = False
 
 if True:
   smax = 51
@@ -19,13 +19,14 @@ if True:
 imumin = 0; imumax = nummubin;
 #for nowxtr in open('2pcffiles.txt','r').readlines():
 #  filename = nowxtr; filename = filename[0:len(filename)-1]
-for filename in getfilelist('../DR12v4-CMASS/xyzw.binsplitted/*.2pcf')+getfilelist('../DR12v4-LOWZ/xyzw.binsplitted/*.2pcf'):
+#for filename in getfilelist('../DR12v4-CMASS/xyzw.binsplitted/*.2pcf')+getfilelist('../DR12v4-LOWZ/xyzw.binsplitted/*.2pcf'):
+for filename in getfilelist('../DR12v4-LOWZ/xyzw.binsplitted/*.2pcf'):
   print filename
-  outputfilename = filename+'.xi_s'
+  outputfilename = filename+'.xis'
   if True:
 		DDlist, DRlist, RRlist = Xsfrom2ddata(smu__loadin(filename, smusettings), [4,5,6])
 		ismax = 50
-		no_s_sq_in_y = False
+		no_s_sq_in_y = True
 		if make_plot: fig, ax1 = figax()
 
                 ### packed count of xi as a function of s
