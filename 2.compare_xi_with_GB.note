@@ -1,0 +1,14 @@
+
+I checked the measured value of 2pCF at s=50:
+	Our 2pCF gives s^2*xi(s) = 
+		~60 (0.15-0.27)
+		~80 (0.27-0.35)  
+		~95 (0.35-0.43) 
+		~60 for CMASS bins
+	I checked GBZ result, they give
+		~70 (0.2-0.35)
+		~85 (0.24-0.39)
+		~80 (0.28-0.43)
+		~60 for high redshift CMASS bins
+		
+Roughly they are OK; Our 3rd-bin value a little large; 
