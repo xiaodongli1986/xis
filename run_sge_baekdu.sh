@@ -11,4 +11,4 @@
 
 
 ##mpirun ./mpitest
-python 160416.compute_xis.py
+python 6.Computexis.mocks.py

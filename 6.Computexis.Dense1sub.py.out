@@ -1,0 +1,16 @@
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'oms' is assigned to before global declaration
+  global oms, ws, omws, scanname
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'ws' is assigned to before global declaration
+  global oms, ws, omws, scanname
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'omws' is assigned to before global declaration
+  global oms, ws, omws, scanname
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'scanname' is assigned to before global declaration
+  global oms, ws, omws, scanname
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'oms' is assigned to before global declaration
+  global oms, ws, omws, scanname
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'ws' is assigned to before global declaration
+  global oms, ws, omws, scanname
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'omws' is assigned to before global declaration
+  global oms, ws, omws, scanname
+/home/xiaodongli/software/pythonlib/Tpcftools_smuintxi.py:513: SyntaxWarning: name 'scanname' is assigned to before global declaration
+  global oms, ws, omws, scanname

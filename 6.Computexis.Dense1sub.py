@@ -6,7 +6,7 @@
 execfile('/home/xiaodongli/software/pythonlib/Tpcftools.py')
 execfile('/home/xiaodongli/software/pythonlib/bossdatamock.py')
 
-datamockdir = datamockdir
+datamockdir = datamockdir_cluster
 smu_xis_covchisqdir = datamockdir + '/xis_covchisqs'
 commands.getoutput('mkdir -p '+str(smu_xis_covchisqdir));
 
@@ -20,7 +20,7 @@ omwlist = Dense1subscan_omwlist
 baseoutputfile = 'Dense1subscan'
 
 ### 3. Range of imumin
-imumins = range(15)
+imumins = range(20)+[30,40,50,60]
 
 ### 4. Maximal s
 smax = 51 
